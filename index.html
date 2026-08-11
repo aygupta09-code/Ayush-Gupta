@@ -1,3 +1,6 @@
+Yes. Copy everything below into your GitHub `index.html` file:
+
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -5,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Ayush Gupta, MBBS - child neurologist focused on pediatric neuroimmunology, pediatric and adult neurogenetics, rare white matter disorders, education, and referral navigation."
+      content="Ayush Gupta, MBBS - child neurologist focused on pediatric neuroimmunology, lifespan neurogenomics, rare white matter disorders, education, and referral navigation."
     />
     <title>Ayush Gupta, MBBS | Neuroimmunology & Neurogenomics</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,10 +21,11 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
+
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
         <a class="brand" href="#top" aria-label="Ayush Gupta home">
-          <img src="assets/ninga-logo.png" alt="" />
+          <img src="ninga-logo.png" alt="" />
           <span>
             <strong>Ayush Gupta, MBBS</strong>
             <small>Child Neurology | Neuroimmunology | Lifespan Neurogenomics</small>
@@ -34,9 +38,8 @@
           <span class="sr-only">Menu</span>
         </button>
         <div class="nav-links" id="nav-links">
-          <a href="#focus">Focus</a>
+          <a href="#focus">Clinical Focus</a>
           <a href="#ninga">NINGA</a>
-          <a href="#research">Research</a>
           <a href="#publications">Publications</a>
           <a href="#referrals">Referrals</a>
           <a href="#contact">Contact</a>
@@ -46,33 +49,34 @@
 
     <main id="main">
       <section class="hero" id="top">
-        <div class="hero-media">
-          <div class="orbital orbital-one"></div>
-          <div class="orbital orbital-two"></div>
-          <div class="strand">
-            <span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <figure class="headshot-frame">
-            <img src="assets/ayush-gupta-headshot.jpg" alt="Portrait of Ayush Gupta, MBBS" />
-            <figcaption>
-              <strong>Ayush Gupta, MBBS</strong>
-              <span>Child neurologist focused on rare neuroimmune and neurogenetic disease.</span>
-            </figcaption>
-          </figure>
-        </div>
         <div class="hero-content">
           <p class="eyebrow">Rare neuroimmune and white matter disorders</p>
           <h1>From diagnostic uncertainty to precise care and discovery.</h1>
           <p class="hero-copy">
-            I am a board-certified, fellowship-trained child neurologist working across
-            neuroimmunology, neurogenomics, education, and practical referral pathways for children
-            and young adults with complex neurologic disease.
+            I am a board-certified, fellowship-trained child neurologist focused on pediatric
+            neuroimmunology, lifespan neurogenomics, rare white matter disorders, and referral
+            navigation for complex neurologic disease.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#referrals">Referral Guidance</a>
             <a class="button secondary" href="#publications">Selected Writing</a>
           </div>
         </div>
+
+        <figure class="portrait-card">
+          <div class="portrait-frame">
+            <img
+              src="ayush-gupta-headshot.jpg"
+              alt="Portrait of Ayush Gupta, MBBS"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+            />
+            <span class="portrait-fallback">AG</span>
+          </div>
+          <figcaption>
+            <strong>Ayush Gupta, MBBS</strong>
+            <span>Child neurologist focused on neuroimmune and neurogenetic disease.</span>
+          </figcaption>
+        </figure>
       </section>
 
       <section class="intro-band" aria-label="Professional summary">
@@ -83,28 +87,25 @@
           </article>
           <article>
             <span class="metric">40+</span>
-            <p>Verified peer reviews across pediatric neurology, neuroimmunology, and related fields.</p>
+            <p>Verified peer reviews across pediatric neurology, neuroimmunology, and rare disease.</p>
           </article>
           <article>
-            <span class="metric">15</span>
-            <p>Centers represented in the inaugural NINGA national case-rounds Exploring relationship between geentic disorders and auotimmunity in the brain and spinal cord.</p>
+            <span class="metric">NINGA</span>
+            <p>Exploring links between genetic disorders and autoimmunity in the nervous system.</p>
           </article>
         </div>
       </section>
 
       <section class="section" id="focus">
         <div class="section-heading">
-          <p class="eyebrow">Clinical and academic focus</p>
-          <h2>Clinical areas.</h2>
+          <p class="eyebrow">Clinical areas</p>
+          <h2>Focused care across three overlapping realms.</h2>
         </div>
+
         <div class="feature-grid">
           <article class="feature-card">
             <h3>Pediatric Neuroimmunology</h3>
-            <p>
-              Care and consultation for children, adolescents, and young adults with inflammatory
-              disorders of the brain, spinal cord, optic nerves, and peripheral nervous system,
-              including relapsing demyelinating disease and autoimmune encephalitis.
-            </p>
+            <p>Children, adolescents, and young adults with inflammatory disorders of the CNS.</p>
             <ul class="clinical-list">
               <li>Pediatric and adolescent multiple sclerosis</li>
               <li>MOG antibody-associated disease</li>
@@ -112,49 +113,44 @@
               <li>NMDA receptor encephalitis</li>
               <li>Seronegative autoimmune encephalitis</li>
               <li>Other pediatric autoimmune encephalitis syndromes</li>
-              <li>Post-infectious neuroinflammation</li>
               <li>Transverse myelitis, ADEM, and relapsing demyelinating syndromes</li>
-              <li>CNS vasculitis, neurosarcoidosis, and complex inflammatory mimics</li>
+              <li>CNS vasculitis, neurosarcoidosis, and inflammatory mimics</li>
             </ul>
             <p class="clinical-note">
-              When appropriate and available, families may be connected with official clinical
-              research opportunities through
+              Clinical trial opportunities may be available through
               <a href="https://www.archildrens.org/research/clinical-trials" rel="noopener">
-                Arkansas Children&apos;s Research Institute
+                Arkansas Children's Research Institute
               </a>.
             </p>
           </article>
+
           <article class="feature-card">
             <h3>White Matter Genetic Disorders and Rare Disease</h3>
-            <p>
-              Evaluation of pediatric and adult patients with genetic, metabolic, and immune-mediated
-              rare diseases affecting white matter, motor pathways, cognition, and neurologic
-              development. Currently building a multidisciplinary Neurogenetic clinc with geentics department.
-            </p>
+            <p>Pediatric and adult rare disease evaluation where genetics, immunity, and white matter overlap.</p>
             <ul class="clinical-list">
               <li>Leukodystrophies and leukoencephalopathies</li>
               <li>Undiagnosed white matter disorders</li>
               <li>Inborn errors of immunity with neurologic involvement</li>
-              <li>Monogenic causes of neuroinflammatory disease</li>
+              <li>Monogenic mimics of neuroinflammatory disease</li>
               <li>Rare neurogenetic and neuroimmune overlap syndromes</li>
-              <li>Adult-presenting or lifespan white matter disorders</li>
-              <li>Whole-exome, whole-genome, and RNA-sequencing interpretation in clinical context</li>
+              <li>Adult-presenting and lifespan white matter disorders</li>
+              <li>Whole-exome, whole-genome, and RNA-sequencing interpretation</li>
             </ul>
+            <p class="clinical-note">
+              I am helping build a multidisciplinary neurogenetics clinic with genetics colleagues.
+            </p>
           </article>
+
           <article class="feature-card">
             <h3>General Child Neurology</h3>
-            <p>
-              General pediatric neurology evaluation and longitudinal management for children with
-              motor disability, tone disorders, headache syndromes, and hereditary neurologic
-              conditions.
-            </p>
+            <p>Longitudinal neurologic care for children with motor, tone, headache, and diagnostic needs.</p>
             <ul class="clinical-list">
               <li>Cerebral palsy</li>
-              <li>Hereditary spastic paraparesis</li>
+              <li>Hereditary spastic paraplegia</li>
               <li>Spasticity management</li>
               <li>Baclofen pump care and coordination</li>
               <li>Pediatric migraine and headache disorders</li>
-              <li>Complex pediatric neurologic presentations requiring diagnostic synthesis</li>
+              <li>Complex pediatric neurologic presentations</li>
             </ul>
           </article>
         </div>
@@ -163,45 +159,44 @@
       <section class="split-section" id="ninga">
         <div>
           <p class="eyebrow">Neuroimmunology Neurogenomics Alliance</p>
-          <h2>NINGA connects clinicians and researchers around difficult cases.</h2>
+          <h2>NINGA brings rare neuroimmune and neurogenomic cases into sharper focus.</h2>
           <p>
             NINGA is a developing professional forum for rare disorders at the intersection of
-            immune dysfunction, genetics, and white matter disease. The goal is to move from
-            variant discovery toward mechanism, shared learning, and multicenter research readiness.
+            immune dysfunction, genetics, and white matter disease.
           </p>
+          <ul class="compact-list">
+            <li>Variant-to-mechanism discussion</li>
+            <li>Shared learning around rare presentations</li>
+            <li>Research readiness for complex neuroimmune genetics</li>
+          </ul>
         </div>
         <div class="logo-panel">
-          <img src="assets/ninga-logo.png" alt="NINGA Neuroimmunology Neurogenomics Alliance logo" />
+          <img src="ninga-logo.png" alt="NINGA Neuroimmunology Neurogenomics Alliance logo" />
         </div>
       </section>
 
-      <section class="section muted" id="research">
+      <section class="section muted" id="publications">
         <div class="section-heading">
-          <p class="eyebrow">Research and scholarship</p>
-          <h2>Selected recent work.</h2>
+          <p class="eyebrow">Selected publications and writing</p>
+          <h2>Recent work.</h2>
         </div>
-        <div class="publications" id="publications">
-          <h3>Selected Published Work and Writing</h3>
-          <ul>
-            <li>
-              <a href="https://doi.org/10.1212/NXG.0000000000200326" rel="noopener">
-                Monogenic Mimics of Neuroinflammatory Phenotypes in Children and Young Adults
-              </a>
-              <span>Neurology Genetics, 2025</span>
-            </li>
-            <li>
-              <a href="https://doi.org/10.1152/advan.00019.2025" rel="noopener">
-                Implementing a Guided VR for Neuroanatomy in Neurology Residency
-              </a>
-              <span>Advances in Physiology Education, 2026</span>
-            </li>
-            <li>
-              <a href="https://opmed.doximity.com/authors/ayush-gupta-md-mbbs" rel="noopener">
-                My coverage of ZACTRIMS 2026
-              </a>
-              <span>Doximity Op-Med</span>
-            </li>
-          </ul>
+
+        <div class="publication-list">
+          <article>
+            <h3>Monogenic Mimics of Neuroinflammatory Phenotypes in Children and Young Adults</h3>
+            <p>Neurology Genetics, 2025.</p>
+            <a href="https://doi.org/10.1212/NXG.0000000000200326" rel="noopener">Read the paper</a>
+          </article>
+          <article>
+            <h3>Implementing a Guided VR for Neuroanatomy in Neurology Residency</h3>
+            <p>Advances in Physiology Education, 2026.</p>
+            <a href="https://doi.org/10.1152/advan.00019.2025" rel="noopener">Read the paper</a>
+          </article>
+          <article>
+            <h3>Doximity Op-Med</h3>
+            <p>Commentary and conference writing, including ZACTRIMS coverage.</p>
+            <a href="https://opmed.doximity.com/authors/ayush-gupta-md-mbbs" rel="noopener">View author page</a>
+          </article>
         </div>
       </section>
 
@@ -210,32 +205,34 @@
           <p class="eyebrow">For clinicians</p>
           <h2>Referral navigation</h2>
           <p>
-            This independent website is not a referral portal and cannot accept protected health
+            This personal website is not a referral portal and cannot accept protected health
             information. Physicians seeking pediatric neurology or neuroscience referral information
-            should use the public Arkansas Children&apos;s Hospital website or call Specialty Care
-            Appointments at 501-364-4000 and ask for Neurology/Neurosciences.
+            should use the public Arkansas Children's website or call Arkansas Children's and ask for
+            Neurology or Neurosciences.
           </p>
-          <a
-            class="button primary"
-            href="https://www.archildrens.org/programs-and-services/neuroscience-center"
-            rel="noopener"
-          >
-            Visit Arkansas Children&apos;s Neurosciences
-          </a>
-          <a
-            class="button secondary"
-            href="https://www.archildrens.org/for-healthcare-professionals/information-for-referring-physicians/outpatient-referrals"
-            rel="noopener"
-          >
-            Outpatient Referral Information
-          </a>
+          <div class="referral-actions">
+            <a
+              class="button primary"
+              href="https://www.archildrens.org/programs-and-services/neurosciences"
+              rel="noopener"
+            >
+              Arkansas Children's Neurosciences
+            </a>
+            <a
+              class="button secondary"
+              href="https://www.archildrens.org/for-healthcare-professionals/information-for-referring-physicians/"
+              rel="noopener"
+            >
+              Referring-Physician Resources
+            </a>
+          </div>
         </div>
         <aside class="notice" aria-label="Important referral notice">
           <h3>Please do not send patient details through this site.</h3>
           <p>
-            For urgent clinical needs, use established clinical, transfer, emergency, or referral
-            pathways. This website is for professional introduction and general referral navigation
-            only.
+            For referrals by phone, call Arkansas Children's at 501-364-4000 and ask for Neurology
+            or Neurosciences. For urgent clinical needs, use established emergency, transfer, or
+            referral pathways.
           </p>
         </aside>
       </section>
@@ -246,12 +243,13 @@
             <p class="eyebrow">Contact</p>
             <h2>Start a conversation.</h2>
             <p>
-              For research, invited talks, or education projects, email is the best first step.
-              Please avoid including patient identifiers or protected health information.
+              For research, education projects, invited talks, or professional correspondence, email
+              is the best first step. Please do not include patient identifiers or protected health
+              information.
             </p>
           </div>
           <div class="contact-card">
-            <a href="mailto:agupta2@uams.edu">agupta2@uams.edu</a>
+            <a href="mailto:agupta2@uams.edu" aria-label="Email Ayush Gupta">@ Email</a>
             <a href="https://orcid.org/0000-0002-1851-0856" rel="noopener">ORCID profile</a>
             <a href="https://www.linkedin.com/in/ayush-gupta-b83a8114a" rel="noopener">LinkedIn profile</a>
           </div>
@@ -261,17 +259,17 @@
 
     <footer class="footer">
       <p>
-        © <span id="year"></span> Ayush Gupta, MBBS. Independent professional website. Content is
-        for informational and academic purposes only and does not create a physician-patient
-        relationship.
+        &copy; <span id="year"></span> Ayush Gupta, MBBS. This is a personal website. The views
+        expressed here are my own and do not represent UAMS, Arkansas Children's, or any employer,
+        hospital, university, clinic, or affiliated health system.
       </p>
       <p>
-        This is a personal website. All views expressed here are my own and do not represent the
-        views of UAMS, where I currently work, or any hospital, university, clinic, employer, or
-        affiliated health system.
+        Content is for informational and academic purposes only and does not create a
+        physician-patient relationship.
       </p>
     </footer>
 
     <script src="script.js"></script>
   </body>
 </html>
+```
